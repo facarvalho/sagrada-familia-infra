@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1370" font-family="system-ui,Segoe UI,Roboto,sans-serif" width="100%">
+<rect x="0" y="0" width="1200" height="1370" fill="#0f1420"/>
+<text x="28" y="40" fill="#eef2fa" font-size="30" font-weight="700">Ligação do switch de fibra 8SC2E</text>
+<text x="28" y="68" fill="#a6b4c8" font-size="15">cada porta SC → 1 conversor de mídia → 1 cabo RJ45 → 1 roteador Mercusys MR60X  ·  Caixa CTO (poste P9)</text>
+<path d="M 114 160 V 123 H 820" fill="none" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="100" width="356" height="46" rx="8" fill="#10331e" stroke="#3cc878" stroke-width="3"/>
+<rect x="832" y="114" width="26" height="18" rx="3" fill="#ffffff"/>
+<text x="868" y="129" fill="#eef2fa" font-size="15" font-weight="700">Roteador CTO · poste P9 · RJ45-1 (sem fibra) ✔</text>
+<rect x="44" y="160" width="286" height="960" rx="14" fill="#14467a" stroke="#4286cd" stroke-width="3"/>
+<text x="187.0" y="194" fill="#cde2fa" font-size="21" font-weight="700" text-anchor="middle">SWITCH 8SC2E</text>
+<rect x="66" y="226" width="44" height="30" rx="4" fill="#1c1c20" stroke="#a0a6b2" stroke-width="2"/>
+<rect x="74" y="233" width="28" height="16" fill="#cdaf3c"/>
+<text x="118" y="246" fill="#96c8ff" font-size="14" font-weight="700">RJ45-1</text>
+<rect x="66" y="272" width="44" height="30" rx="4" fill="#1c1c20" stroke="#a0a6b2" stroke-width="2"/>
+<rect x="74" y="279" width="28" height="16" fill="#cdaf3c"/>
+<text x="118" y="292" fill="#a6b4c8" font-size="14" font-weight="400">RJ45-2 (reserva)</text>
+<rect x="66" y="1064" width="34" height="34" rx="5" fill="#141418" stroke="#969ca8" stroke-width="2"/>
+<text x="108" y="1086" fill="#96c8ff" font-size="14" font-weight="700">POWER 12 V / 2 A</text>
+<polygon points="330,210 330,250 376,244 376,216" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="230" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="236" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">8</text>
+<rect x="382" y="215" width="52" height="30" rx="4" fill="#f0a546"/>
+<text x="408" y="235" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC B</text>
+<line x1="434" y1="230" x2="556" y2="230" stroke="#98a2b3" stroke-width="3"/>
+<rect x="556" y="196" width="208" height="68" rx="8" fill="#787c82" stroke="#5f6470" stroke-width="2"/>
+<rect x="564" y="202" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="224" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="234" width="86" height="26" rx="5" fill="#5696eb"/>
+<text x="611" y="252" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo A</text>
+<line x1="764" y1="230" x2="820" y2="230" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="200" width="356" height="60" rx="8" fill="#262014" stroke="#ffb642" stroke-width="2"/>
+<text x="838" y="226" fill="#ffb642" font-size="17" font-weight="700">Roteador ?</text>
+<text x="838" y="248" fill="#a6b4c8" font-size="13">Mercusys MR60X — definir o nome do roteador</text>
+<polygon points="330,326 330,366 376,360 376,332" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="346" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="352" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">7</text>
+<rect x="382" y="331" width="52" height="30" rx="4" fill="#f0a546"/>
+<text x="408" y="351" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC B</text>
+<line x1="434" y1="346" x2="556" y2="346" stroke="#98a2b3" stroke-width="3"/>
+<rect x="556" y="312" width="208" height="68" rx="8" fill="#787c82" stroke="#5f6470" stroke-width="2"/>
+<rect x="564" y="318" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="340" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="350" width="86" height="26" rx="5" fill="#5696eb"/>
+<text x="611" y="368" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo A</text>
+<line x1="764" y1="346" x2="820" y2="346" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="316" width="356" height="60" rx="8" fill="#262014" stroke="#ffb642" stroke-width="2"/>
+<text x="838" y="342" fill="#ffb642" font-size="17" font-weight="700">Roteador ?</text>
+<text x="838" y="364" fill="#a6b4c8" font-size="13">Mercusys MR60X — definir o nome do roteador</text>
+<polygon points="330,442 330,482 376,476 376,448" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="462" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="468" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">6</text>
+<rect x="382" y="447" width="52" height="30" rx="4" fill="#f0a546"/>
+<text x="408" y="467" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC B</text>
+<line x1="434" y1="462" x2="556" y2="462" stroke="#98a2b3" stroke-width="3"/>
+<rect x="556" y="428" width="208" height="68" rx="8" fill="#787c82" stroke="#5f6470" stroke-width="2"/>
+<rect x="564" y="434" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="456" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="466" width="86" height="26" rx="5" fill="#5696eb"/>
+<text x="611" y="484" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo A</text>
+<line x1="764" y1="462" x2="820" y2="462" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="432" width="356" height="60" rx="8" fill="#262014" stroke="#ffb642" stroke-width="2"/>
+<text x="838" y="458" fill="#ffb642" font-size="17" font-weight="700">Roteador ?</text>
+<text x="838" y="480" fill="#a6b4c8" font-size="13">Mercusys MR60X — definir o nome do roteador</text>
+<polygon points="330,558 330,598 376,592 376,564" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="578" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="584" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">5</text>
+<rect x="382" y="563" width="52" height="30" rx="4" fill="#f0a546"/>
+<text x="408" y="583" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC B</text>
+<line x1="434" y1="578" x2="556" y2="578" stroke="#3cc878" stroke-width="4"/>
+<rect x="556" y="544" width="208" height="68" rx="8" fill="#787c82" stroke="#3cc878" stroke-width="3"/>
+<rect x="564" y="550" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="572" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="582" width="86" height="26" rx="5" fill="#5696eb"/>
+<text x="611" y="600" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo A</text>
+<line x1="764" y1="578" x2="820" y2="578" stroke="#3cc878" stroke-width="3"/>
+<rect x="820" y="548" width="356" height="60" rx="8" fill="#10331e" stroke="#3cc878" stroke-width="3"/>
+<rect x="832" y="568" width="28" height="18" rx="3" fill="#ffd000"/>
+<text x="870" y="574" fill="#eef2fa" font-size="17" font-weight="700">Roteador RANCHO ✔</text>
+<text x="870" y="596" fill="#a6b4c8" font-size="13">Mercusys MR60X · head-end (Starlink)</text>
+<polygon points="330,674 330,714 376,708 376,680" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="694" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="700" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">4</text>
+<rect x="382" y="679" width="52" height="30" rx="4" fill="#5696eb"/>
+<text x="408" y="699" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC A</text>
+<line x1="434" y1="694" x2="556" y2="694" stroke="#98a2b3" stroke-width="3"/>
+<rect x="556" y="660" width="208" height="68" rx="8" fill="#787c82" stroke="#5f6470" stroke-width="2"/>
+<rect x="564" y="666" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="688" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="698" width="86" height="26" rx="5" fill="#f0a546"/>
+<text x="611" y="716" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo B</text>
+<line x1="764" y1="694" x2="820" y2="694" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="664" width="356" height="60" rx="8" fill="#262014" stroke="#ffb642" stroke-width="2"/>
+<text x="838" y="690" fill="#ffb642" font-size="17" font-weight="700">Roteador ?</text>
+<text x="838" y="712" fill="#a6b4c8" font-size="13">Mercusys MR60X — definir o nome do roteador</text>
+<polygon points="330,790 330,830 376,824 376,796" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="810" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="816" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">3</text>
+<rect x="382" y="795" width="52" height="30" rx="4" fill="#5696eb"/>
+<text x="408" y="815" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC A</text>
+<line x1="434" y1="810" x2="556" y2="810" stroke="#98a2b3" stroke-width="3"/>
+<rect x="556" y="776" width="208" height="68" rx="8" fill="#787c82" stroke="#5f6470" stroke-width="2"/>
+<rect x="564" y="782" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="804" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="814" width="86" height="26" rx="5" fill="#f0a546"/>
+<text x="611" y="832" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo B</text>
+<line x1="764" y1="810" x2="820" y2="810" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="780" width="356" height="60" rx="8" fill="#262014" stroke="#ffb642" stroke-width="2"/>
+<text x="838" y="806" fill="#ffb642" font-size="17" font-weight="700">Roteador ?</text>
+<text x="838" y="828" fill="#a6b4c8" font-size="13">Mercusys MR60X — definir o nome do roteador</text>
+<polygon points="330,906 330,946 376,940 376,912" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="926" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="932" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">2</text>
+<rect x="382" y="911" width="52" height="30" rx="4" fill="#5696eb"/>
+<text x="408" y="931" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC A</text>
+<line x1="434" y1="926" x2="556" y2="926" stroke="#98a2b3" stroke-width="3"/>
+<rect x="556" y="892" width="208" height="68" rx="8" fill="#787c82" stroke="#5f6470" stroke-width="2"/>
+<rect x="564" y="898" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="920" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="930" width="86" height="26" rx="5" fill="#f0a546"/>
+<text x="611" y="948" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo B</text>
+<line x1="764" y1="926" x2="820" y2="926" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="896" width="356" height="60" rx="8" fill="#262014" stroke="#ffb642" stroke-width="2"/>
+<text x="838" y="922" fill="#ffb642" font-size="17" font-weight="700">Roteador ?</text>
+<text x="838" y="944" fill="#a6b4c8" font-size="13">Mercusys MR60X — definir o nome do roteador</text>
+<polygon points="330,1022 330,1062 376,1056 376,1028" fill="#1a1a1e" stroke="#aab0bc" stroke-width="2"/>
+<circle cx="311" cy="1042" r="16" fill="#14467a" stroke="#eef2fa" stroke-width="2"/>
+<text x="311" y="1048" fill="#eef2fa" font-size="19" font-weight="700" text-anchor="middle">1</text>
+<rect x="382" y="1027" width="52" height="30" rx="4" fill="#5696eb"/>
+<text x="408" y="1047" fill="#0c1018" font-size="14" font-weight="700" text-anchor="middle">SC A</text>
+<line x1="434" y1="1042" x2="556" y2="1042" stroke="#98a2b3" stroke-width="3"/>
+<rect x="556" y="1008" width="208" height="68" rx="8" fill="#787c82" stroke="#5f6470" stroke-width="2"/>
+<rect x="564" y="1014" width="192" height="8" fill="#eb7828"/>
+<text x="570" y="1036" fill="#16161a" font-size="12">Conversor de mídia</text>
+<rect x="568" y="1046" width="86" height="26" rx="5" fill="#f0a546"/>
+<text x="611" y="1064" fill="#0c1018" font-size="16" font-weight="700" text-anchor="middle">tipo B</text>
+<line x1="764" y1="1042" x2="820" y2="1042" stroke="#98a2b3" stroke-width="3"/>
+<rect x="820" y="1012" width="356" height="60" rx="8" fill="#262014" stroke="#ffb642" stroke-width="2"/>
+<text x="838" y="1038" fill="#ffb642" font-size="17" font-weight="700">Roteador ?</text>
+<text x="838" y="1060" fill="#a6b4c8" font-size="13">Mercusys MR60X — definir o nome do roteador</text>
+<text x="28" y="1160" fill="#a6b4c8" font-size="15" font-weight="400">Portas tipo B (5–8) em cima, tipo A (1–4) em baixo — conforme serigrafia 'SC A' / 'SC B' da placa.</text>
+<text x="28" y="1190" fill="#eef2fa" font-size="15" font-weight="700">Conversor SEMPRE do tipo oposto ao da porta (já preenchido). Falta só o NOME do roteador de cada porta:</text>
+<text x="28" y="1220" fill="#ffb642" font-size="15" font-weight="700">roteadores a distribuir →  PORTEIRA   ·   POMAR   ·   PISCINA   ·   MOTOR   ·   SEDE   ·   MÃE   ·   LAZER</text>
+<text x="28" y="1250" fill="#3cc878" font-size="15" font-weight="400">Confirmado:  porta 5 (SC B) → conversor tipo A → Roteador RANCHO (recebe o Starlink).  RJ45-1 → Roteador CTO.</text>
+</svg>

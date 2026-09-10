@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rede de Fibra Óptica — Fazenda Sagrada Família</title>
+<style>
+  :root{color-scheme:dark}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:#0f1420;color:#e9eef5;line-height:1.55}
+  .wrap{max-width:960px;margin:0 auto;padding:24px 16px 60px}
+  h1{font-size:22px;margin:0 0 4px}
+  h2{font-size:15px;letter-spacing:.04em;text-transform:uppercase;color:#9fb3cc;margin:34px 0 12px}
+  p.sub{color:#9fb0c8;margin:0 0 20px;font-size:14px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  a.card{display:block;background:#182135;border:1px solid #2b3856;border-radius:12px;padding:16px;
+    text-decoration:none;color:#e9eef5;transition:border-color .15s}
+  a.card:hover{border-color:#4f8fe0}
+  a.card .ic{font-size:24px}
+  a.card b{display:block;margin:6px 0 2px;font-size:15px}
+  a.card span{color:#9fb0c8;font-size:13px}
+  table{border-collapse:collapse;width:100%;font-size:13px;margin-top:4px;overflow:hidden;border-radius:8px}
+  th,td{padding:7px 9px;text-align:left;border-bottom:1px solid #26324c}
+  th{background:#1b2740;color:#cdd8ea}
+  tr:nth-child(even) td{background:#141d30}
+  td i{display:inline-block;width:16px;height:16px;border-radius:3px;vertical-align:middle}
+  code{background:#0c1524;padding:1px 6px;border-radius:5px;color:#8fd0ff;font-size:12.5px}
+  .ok{color:#4bd07f;font-weight:700} .w{color:#ffb648;font-weight:700}
+  ul{margin:6px 0;padding-left:20px} li{margin:3px 0}
+  .note{background:#151f33;border-left:3px solid #ffb648;padding:10px 14px;border-radius:6px;font-size:13px;margin-top:10px}
+  footer{margin-top:44px;color:#6f7d92;font-size:12px}
+  img.thumb{width:100%;border-radius:10px;border:1px solid #26324c;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Rede de Fibra Óptica — Fazenda Sagrada Família</h1>
+  <p class="sub">Projeto de infraestrutura: distribuição de internet por fibra óptica a partir de um link Starlink.</p>
+
+  <div class="cards">
+    <a class="card" href="mapa.html"><div class="ic">🗺️</div><b>Mapa interativo</b>
+      <span>satélite + traçado da fibra, postes e roteadores. Toque nos marcadores.</span></a>
+    <a class="card" href="fibra_infra_projeto.pdf"><div class="ic">📄</div><b>PDF do projeto</b>
+      <span>documento completo (7 páginas): mapa, esquema, ligação, tabelas, câmeras.</span></a>
+    <a class="card" href="etiquetas_roteadores.pdf"><div class="ic">🏷️</div><b>Etiquetas dos cabos</b>
+      <span>folha A4 para imprimir: cor da ligação + nome do roteador + IP.</span></a>
+    <a class="card" href="img/fibra_equipamentos.png"><div class="ic">🔌</div><b>Ligação do switch 8SC2E</b>
+      <span>portas SC A/B, conversores de mídia e roteadores.</span></a>
+    <a class="card" href="img/fibra_esquema.png"><div class="ic">🌐</div><b>Esquema da rede</b>
+      <span>topologia: Starlink → CTO → ramais.</span></a>
+    <a class="card" href="img/fibra_infra.png"><div class="ic">🛰️</div><b>Mapa (imagem)</b>
+      <span>versão estática do mapa para impressão.</span></a>
+    <a class="card" href="fibra_infra.kml"><div class="ic">📍</div><b>KML (Google Earth)</b>
+      <span>traçado, pontos e câmeras para abrir no Google Earth / My Maps.</span></a>
+    <a class="card" href="#cameras"><div class="ic">📷</div><b>Câmeras de segurança</b>
+      <span>17 câmeras Wi-Fi 360° — posição, modelo e roteador.</span></a>
+  </div>
+
+  <h2>Caminho da internet</h2>
+  <p style="font-size:14px">Caminho da internet:  Starlink → Roteador RANCHO → conversor de mídia tipo A → switch de fibra 8SC2E → 1 conversor de mídia por porta → roteador Mercusys MR60X de cada local → Wi-Fi (LAN própria).  O switch só faz a ligação da fibra; cada roteador é independente (NAT/DHCP próprio) e tem sua própria sub-rede 192.168.x.0/24 (gateway .1). O roteador CTO liga direto no RJ45-1 do switch.</p>
+
+  <h2>Equipamentos</h2>
+  <ul>
+    <li>Starlink</li>
+    <li>Roteador Mercusys MR60X — Wi-Fi 6 AX1500 (4 antenas)</li>
+    <li>Conversor de mídia Gigabit — 1 SC (fibra) + 1 RJ45 (10/100/1000), plug & play</li>
+    <li>Switch de fibra 8SC2E — 8×SC 1.25G (placa 4A + 4B) + 2×RJ45 10/100/1000</li>
+  </ul>
+
+  <h2>Endereçamento IP</h2>
+  <table><thead><tr><th>Roteador (Mercusys MR60X)</th><th>IP de gerência</th><th>Local</th></tr></thead>
+  <tbody><tr><td>Roteador <b>CTO</b></td><td><code>192.168.0.1</code></td><td>poste P9 (na caixa CTO)</td></tr><tr><td>Roteador <b>MOTOR</b></td><td><code>192.168.2.1</code></td><td>poste P20</td></tr><tr><td>Roteador <b>RANCHO</b></td><td><code>192.168.3.1</code></td><td>nó — head-end do Starlink</td></tr><tr><td>Roteador <b>PORTEIRA</b></td><td><code>192.168.4.1</code></td><td>poste P19</td></tr><tr><td>Roteador <b>POMAR</b></td><td><code>192.168.5.1</code></td><td>poste P14</td></tr><tr><td>Roteador <b>SEDE</b></td><td><code>192.168.6.1</code></td><td>nó de rede</td></tr><tr><td>Roteador <b>PISCINA</b></td><td><code>192.168.7.1</code></td><td>poste P12</td></tr><tr><td>Roteador <b>MÃE</b></td><td><code>192.168.8.1</code></td><td>nó de rede</td></tr><tr><td>Roteador <b>LAZER</b></td><td><code>192.168.9.1</code></td><td>nó de rede</td></tr></tbody></table>
+  <p style="font-size:13px;color:#9fb0c8">Cada roteador é independente (NAT/DHCP próprio).</p>
+
+  <h2>Portas do switch 8SC2E (Caixa CTO / poste P9)</h2>
+  <table><thead><tr><th>Porta</th><th>Tipo</th><th>Conversor</th><th></th><th>Roteador</th><th>Status</th></tr></thead>
+  <tbody><tr><td><b>1</b></td><td>SC A</td><td>tipo B</td><td><i style='background:transparent'></i></td><td><span class='w'>? definir</span></td><td><span class='w'>definir</span></td></tr><tr><td><b>2</b></td><td>SC A</td><td>tipo B</td><td><i style='background:transparent'></i></td><td><span class='w'>? definir</span></td><td><span class='w'>definir</span></td></tr><tr><td><b>3</b></td><td>SC A</td><td>tipo B</td><td><i style='background:transparent'></i></td><td><span class='w'>? definir</span></td><td><span class='w'>definir</span></td></tr><tr><td><b>4</b></td><td>SC A</td><td>tipo B</td><td><i style='background:transparent'></i></td><td><span class='w'>? definir</span></td><td><span class='w'>definir</span></td></tr><tr><td><b>5</b></td><td>SC B</td><td>tipo A</td><td><i style='background:#ffd000'></i></td><td><b>Roteador RANCHO</b></td><td><span class='ok'>✔</span></td></tr><tr><td><b>6</b></td><td>SC B</td><td>tipo A</td><td><i style='background:transparent'></i></td><td><span class='w'>? definir</span></td><td><span class='w'>definir</span></td></tr><tr><td><b>7</b></td><td>SC B</td><td>tipo A</td><td><i style='background:transparent'></i></td><td><span class='w'>? definir</span></td><td><span class='w'>definir</span></td></tr><tr><td><b>8</b></td><td>SC B</td><td>tipo A</td><td><i style='background:transparent'></i></td><td><span class='w'>? definir</span></td><td><span class='w'>definir</span></td></tr><tr><td><b>RJ45-1</b></td><td>—</td><td>—</td><td><i style='background:#fff'></i></td><td><b>Roteador CTO</b> · P9</td><td><span class='ok'>✔</span></td></tr><tr><td><b>RJ45-2</b></td><td>—</td><td>—</td><td></td><td>reserva</td><td>—</td></tr></tbody></table>
+  <div class="note"><b>Pendência:</b> definir o roteador das portas 1–4 e 6–8 —
+    PORTEIRA · POMAR · PISCINA · MOTOR · SEDE · MÃE · LAZER. Confirmado: porta 5 = RANCHO, RJ45-1 = CTO.<br>
+    Regra BiDi: porta SC A ↔ conversor tipo B | porta SC B ↔ conversor tipo A.</div>
+
+  <img class="thumb" src="img/fibra_ligacao.png" alt="Diagrama de ligação do switch">
+
+  <h2 id="cameras">Câmeras de segurança</h2>
+  <p style="font-size:14px">17 câmeras Wi-Fi 360° &mdash; 2× Kapbom Wi-Fi 360° · 15× Soquete E27 360°.</p>
+  <table><thead><tr><th>Local</th><th>Poste / coordenada</th><th>Modelo</th><th>Wi-Fi</th></tr></thead>
+  <tbody><tr><td><b>Porteira</b></td><td>poste P19</td><td>Kapbom Wi-Fi 360°</td><td>Roteador <b>PORTEIRA</b></td></tr><tr><td><b>Galinheiro</b></td><td>poste P1</td><td>Kapbom Wi-Fi 360°</td><td>Roteador <b>RANCHO</b> <span class='w'>~30 m</span></td></tr><tr><td><b>Chuchu</b></td><td>poste P17</td><td>Soquete E27 360°</td><td>Roteador <b>PORTEIRA</b> <span class='w'>~89 m</span></td></tr><tr><td><b>Pomar Cima</b></td><td>poste P14</td><td>Soquete E27 360°</td><td>Roteador <b>POMAR</b></td></tr><tr><td><b>Pomar Baixo</b></td><td>poste P14</td><td>Soquete E27 360°</td><td>Roteador <b>POMAR</b></td></tr><tr><td><b>Piscina</b></td><td>poste P11</td><td>Soquete E27 360°</td><td>Roteador <b>PISCINA</b> <span class='w'>~47 m</span></td></tr><tr><td><b>Mãe Lateral</b></td><td>poste P9</td><td>Soquete E27 360°</td><td>Roteador <b>MÃE</b></td></tr><tr><td><b>Mãe Frente</b></td><td>poste P8</td><td>Soquete E27 360°</td><td>Roteador <b>MÃE</b></td></tr><tr><td><b>Motor</b></td><td>poste P20</td><td>Soquete E27 360°</td><td>Roteador <b>MOTOR</b></td></tr><tr><td><b>Chiqueiro</b></td><td>poste P6</td><td>Soquete E27 360°</td><td>Roteador <b>MOTOR</b> <span class='w'>~59 m</span></td></tr><tr><td><b>Sede</b></td><td>poste P5</td><td>Soquete E27 360°</td><td>Roteador <b>SEDE</b> <span class='w'>~39 m</span></td></tr><tr><td><b>Rancho Entrada</b></td><td>-21.35427, -45.98845</td><td>Soquete E27 360°</td><td>Roteador <b>RANCHO</b></td></tr><tr><td><b>Cozinha Entrada</b></td><td>-21.35438, -45.98856</td><td>Soquete E27 360°</td><td>Roteador <b>RANCHO</b> <span class='w'>~12 m</span></td></tr><tr><td><b>Mãe Cozinha</b></td><td>-21.35277, -45.98990</td><td>Soquete E27 360°</td><td>Roteador <b>MÃE</b></td></tr><tr><td><b>Mãe Varanda</b></td><td>-21.35289, -45.98986</td><td>Soquete E27 360°</td><td>Roteador <b>MÃE</b></td></tr><tr><td><b>Lazer Cozinha</b></td><td>-21.35266, -45.98975</td><td>Soquete E27 360°</td><td>Roteador <b>LAZER</b></td></tr><tr><td><b>Lazer Sala</b></td><td>-21.35259, -45.98978</td><td>Soquete E27 360°</td><td>Roteador <b>LAZER</b> <span class='w'>~8 m</span></td></tr></tbody></table>
+  <div class="note">Câmeras Wi-Fi 360° — não usam a fibra: cada uma conecta no Wi-Fi do roteador Mercusys MR60X mais próximo (associação estimada por distância; confirmar o sinal no local). As de poste usam o modelo Kapbom (externo, 3 antenas); as demais são de soquete de lâmpada E27.</div>
+
+  <footer>Gerado a partir de <code>src/</code> · veja o README para reconstruir.</footer>
+</div>
+</body>
+</html>
